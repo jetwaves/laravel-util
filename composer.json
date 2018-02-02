@@ -1,0 +1,19 @@
+{
+    "name": "jetwaves/laravel-util",
+    "description": "util functions for laravel",
+    "type": "sdk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jetwaves",
+            "email": "jetwaves@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Jetwaves\\LaravelUtil\\": "src/"
+        }
+    }
+}
