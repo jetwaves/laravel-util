@@ -32,7 +32,7 @@ class CommonUtil
      */
     public static function randStr($len = 6, $format = 'ALL')
     {
-        switch ($format) {
+        switch (strtoupper($format)) {
             case 'ALL':
                 $chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-@#~';
                 break;
